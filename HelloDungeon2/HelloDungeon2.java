@@ -119,6 +119,7 @@ try {
 			System.out.println("That is not an option");
 		break;
 		}
+		menuloop = 1;
 		}//flag1
 break;		
 case 2:		
