@@ -72,6 +72,7 @@ try {
 			basestat[1] = 20;
 			basestat[2] = 10;
 			fighter = 1;
+			menuloop = 1;
 		break;
 		case 2:
 			System.out.println("You chose Wizard as your class");
@@ -79,6 +80,7 @@ try {
 			basestat[1] = 10;
 			basestat[2] = 10;
 			fighter = 2;
+			menuloop = 1;
 		break;
 		case 3:
 			System.out.println("You chose Necromancer as your class");
@@ -86,6 +88,7 @@ try {
 			basestat[1] = 20;
 			basestat[2] = 20;
 			fighter = 3;
+			menuloop = 1;
 		break;
 		case 4:
 			System.out.println("You chose Warrior as your class");
@@ -93,6 +96,7 @@ try {
 			basestat[1] = 30;
 			basestat[2] = 20;
 			fighter = 4;
+			menuloop = 1;
 		break;
 		case 5:
 			System.out.println("You chose Archer as your class");
@@ -100,6 +104,7 @@ try {
 			basestat[1] = 20;
 			basestat[2] = 30;
 			fighter = 5;
+			menuloop = 1;
 			break;
 		case 6:
 			System.out.println("You chose Barbarian as your class");
@@ -107,6 +112,7 @@ try {
 			basestat[1] = 40;
 			basestat[2] = 10;
 			fighter = 6;
+			menuloop = 1;
 			break;
 		case 7:
 			System.out.println("You chose Knight as your class");
@@ -114,6 +120,7 @@ try {
 			basestat[1] = 10;
 			basestat[2] = 40;
 			fighter = 7;
+			menuloop = 1;
 		break;
 		default:
 			System.out.println("That is not an option");
@@ -215,8 +222,8 @@ break;
 //actual game
 // TODO add store and dungeon and option and my account
 while(game == 0){//float game
-System.out.println("");
-
+System.out.println("This part of the map is under development");
+game == 1;
 
 
 }//flag game
