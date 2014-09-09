@@ -3,6 +3,12 @@ HelloDungeon
 
 HelloDungeon game series
 
+It's a text-based RPG Dungeon-Adventure Game
+
+It has no graphics, just text based
+
+Do not ask for graphics, I have been asked that too much
+
 Releases
 =============
 
