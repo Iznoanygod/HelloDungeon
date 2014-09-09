@@ -223,7 +223,8 @@ case 0:
 	town = "Dungeon-Town";
 	break;
 }//flag town
-System.out.println("Yoa are in: " + town);
+System.out.println("You are in: " + town);
+System.out.println("Where would you like to go:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon");
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
 
