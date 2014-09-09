@@ -224,10 +224,15 @@ case 0:
 	break;
 }//flag town
 System.out.println("You are in: " + town);
-System.out.println("Where would you like to go:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon");
+System.out.println("Where would you like to go:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon\n [4] Options\n[5] Save Game");
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
+switch(location){//flag location
 
+
+
+
+}//flag location
 }//flag game
 }//flag2
 }
