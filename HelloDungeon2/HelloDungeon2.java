@@ -1,4 +1,5 @@
 //System.out.println("");
+//try {Thread.sleep(1000L);}catch (Exception e) {}
 import java.util.*;
 import java.lang.*;
 public class HelloDungeon2 {
@@ -146,7 +147,7 @@ System.out.println("Input [ 2 ]");
 load = (long) input.nextLong();
 temp = (long) Math.sqrt(load - random);
 basestat[0] = temp / random;
-try {
+try {i
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
@@ -224,7 +225,8 @@ case 0:
 	break;
 }//flag town
 System.out.println("You are in: " + town);
-System.out.println("Where would you like to go:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon\n [4] Options\n[5] Save Game");
+try {Thread.sleep(1000L);}catch (Exception e) {}
+System.out.println("Options:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon\n [4] Options\n[5] Save Game");
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
 switch(location){//flag location
