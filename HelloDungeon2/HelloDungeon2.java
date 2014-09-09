@@ -228,9 +228,9 @@ System.out.println("Where would you like to go:\n[1] Enter Shop\n[2] Enter Alche
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
 switch(location){//flag location
+case 1:
 
-
-
+break;
 
 }//flag location
 }//flag game
