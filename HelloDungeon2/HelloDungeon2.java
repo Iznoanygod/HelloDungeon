@@ -233,6 +233,8 @@ try {Thread.sleep(1000L);}catch (Exception e) {}
 switch(location){//flag location
 case 1:
 System.out.println("Welcome to the " + town + " shop");
+try {Thread.sleep(1000L);}catch (Exception e) {}
+System.out.println("What would you like?\n[1] Swords\n[2] Staves\n[3] Potions\n[4] Keys\n[5] Leave");
 break;
 
 }//flag location
