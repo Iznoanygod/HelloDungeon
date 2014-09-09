@@ -16,6 +16,7 @@ float stat[] = new float[3];//1:magic 2:health 3:attack
 float basestat[] = new float[3];
 int fighterc = 0;
 float game = 0;
+float dungeontemp = 0;
 float fighter = 0;
 float gold = 0;
 float elixer = 0;
@@ -213,13 +214,19 @@ break;
 }//flag3
 }//flag4
 //actual game
+int dungeon = (int) dungeontemp;
 // TODO add store and dungeon and option and my account
-while(game == 0){//float game
-System.out.println("");
-
-
+int location;
+String town = null;
+switch(dungeon){//flag town
+case 0:
+	town = "Dungeon-Town";
+	break;
+}//flag town
+System.out.println("Yoa are in: " + town);
+Scanner input = new Scanner(System.in);
+location = input.nextInt();
 
 }//flag game
 }//flag2
-}
 }
