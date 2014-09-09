@@ -229,9 +229,10 @@ try {Thread.sleep(1000L);}catch (Exception e) {}
 System.out.println("Options:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon\n [4] Options\n[5] Save Game");
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
+try {Thread.sleep(1000L);}catch (Exception e) {}
 switch(location){//flag location
 case 1:
-
+System.out.println("Welcome to the " + town + " shop");
 break;
 
 }//flag location
