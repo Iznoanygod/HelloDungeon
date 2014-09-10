@@ -17,7 +17,11 @@ float stat[] = new float[3];//1:magic 2:health 3:attack
 float basestat[] = new float[3];
 int fighterc = 0;
 float game = 0;
+float difficulty;
 float dungeontemp = 0;
+float swordown[] = new float[9];
+float staffown[] = new float[9];
+float keyown[] = new float[9];
 float fighter = 0;
 float gold = 0;
 float elixer = 0;
@@ -130,7 +134,7 @@ long random;
 long temp;
 try {Thread.sleep(1000L);}catch (Exception e) {}
 System.out.println("Enter User-Data Code");
-System.out.println("[ 1 ]-[ 2 ]-[ 3 ]-[ 4 ]-[ 5 ]-[ 6 ]-[ 7 ]-[ 8 ]-[ 9 ]");//[base1]-[base2]-[base3]-[gold]-[elixer]-[level]-[exp]-[fighter]
+System.out.println("[ 1 ]-[ 2 ]-[ 3 ]-[ 4 ]-[ 5 ]-[ 6 ]-[ 7 ]-[ 8 ]-[ 9 ]-[ 10 ]-[ 11 ]");//[base1]-[base2]-[base3]-[gold]-[elixer]-[level]-[exp]-[fighter]
 try {
 	  Thread.sleep(1000L);    // one second
 	}
@@ -147,7 +151,7 @@ System.out.println("Input [ 2 ]");
 load = (long) input.nextLong();
 temp = (long) Math.sqrt(load - random);
 basestat[0] = temp / random;
-try {i
+try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
@@ -207,6 +211,22 @@ try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
+System.out.println("Input [ 10 ]");
+load = (long) input.nextLong();
+temp = (long) Math.sqrt(load - random);
+difficulty = temp / random;
+try {
+	  Thread.sleep(1000L);    // one second
+	}
+	catch (Exception e) {}
+System.out.println("Input [ 11 ]");
+load = (long) input.nextLong();
+temp = (long) Math.sqrt(load - random);
+dungeontemp = temp / random;
+try {
+	  Thread.sleep(1000L);    // one second
+	}
+	catch (Exception e) {}
 menuloop = 1;
 break;
 default:
@@ -215,6 +235,7 @@ break;
 }//flag3
 }//flag4
 //actual game
+while(game == 0){//flag game
 int dungeon = (int) dungeontemp;
 // TODO add store and dungeon and option and my account
 int location;
@@ -226,20 +247,68 @@ case 0:
 }//flag town
 System.out.println("You are in: " + town);
 try {Thread.sleep(1000L);}catch (Exception e) {}
-System.out.println("Options:\n[1] Enter Shop\n[2] Enter Alchemy Lab\n[3] Enter Dungeon\n [4] Options\n[5] Save Game");
+System.out.println("Options:\n[1] Enter Shop\n[2] Enter Dungeon\n[3] Options\n[4] My Profile\n[5] Save Game");
 Scanner input = new Scanner(System.in);
 location = input.nextInt();
 try {Thread.sleep(1000L);}catch (Exception e) {}
 switch(location){//flag location
 case 1:
-int
+int store;
 System.out.println("Welcome to the " + town + " shop");
 try {Thread.sleep(1000L);}catch (Exception e) {}
 System.out.println("What would you like?\n[1] Swords\n[2] Staves\n[3] Potions\n[4] Keys\n[5] Leave");
+store = input.nextInt();
+float storetemp = 0;
+float sword;;
+float staff;
+float potion;
+float key;
+String swordname = null;
+switch(store){//flag store
+	case 1:
+	try {Thread.sleep(1000L);}catch (Exception e) {}
+	System.out.println("What kind of sword do you want?\nGold: " + gold);
+	System.out.println("[1] Wooden Sword\n+10 Attack\n20 Gold\n[2] Stone Sword\n+20 Attack\n40 Gold\n[3] Iron Sword\n+40 Attack\n80 Gold\n[4] Gold Sword\n+80 Attack\n160 Gold\n[5] Diamond Sword\n+160 Attack\n320 Gold\n[6] Flaming Sword\n+320 Attack\n+640 Gold\n[7] Sword of Oblivion\n+640 Attack\n1280 Gold[\n8] Sword of the Master\n+1280 Attack\n2560 Gold\n[9] Sword of the Dragon Slayer\n+2560 Attack\n5120 Gold");
+	sword = input.nextFloat();
+	//sword name
+	if(sword == 1){swordname = "Wooden Sword";}
+	if(sword == 2){swordname = "Stone Sword";}
+	if(sword == 3){swordname = "Iron Sword";}
+	if(sword == 4){swordname = "Gold Sword";}
+	if(sword == 5){swordname = "Diamond Sword";}
+	if(sword == 6){swordname = "Flaming Sword";}
+	if(sword == 7){swordname = "Sword of Oblivion";}
+	if(sword == 8){swordname = "Sword of the Master";}
+	if(sword == 9){swordname = "Sword of the Dragon Slayer";}
+	else{System.out.println("That is not an option");storetemp = 1;}
+	if(storetemp == 0){
+		if(gold >= (Math.pow(2,sword) * 10)/2){
+		if(swordown[1] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[2] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[3] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[4] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[5] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[6] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[7] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[8] == 1){System.out.println("You already own the " + swordname);}
+		if(swordown[9] == 1){System.out.println("You already own the " + swordname);}
+		else{
+			gold = (float) (gold - (Math.pow(2,sword) * 10)/2);
+			basestat[2] = (float) (basestat[2] + Math.pow(2, sword) * 10);
+			System.out.println("You bought a " + swordname);
+		}
+		}
+		else{System.out.println("You do not have enough gold");};
+	}
+	//sword name
+	break;
 
+}//flag store
 break;
-
 }//flag location
 }//flag game
 }//flag2
 }
+}
+//System.out.println("");
+//try {Thread.sleep(1000L);}catch (Exception e) {}
