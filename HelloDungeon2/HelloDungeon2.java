@@ -280,7 +280,8 @@ switch(store){//flag store
 	if(sword == 7){swordname = "Sword of Oblivion";}
 	if(sword == 8){swordname = "Sword of the Master";}
 	if(sword == 9){swordname = "Sword of the Dragon Slayer";}
-	else{System.out.println("That is not an option");storetemp = 1;}
+	elif(sword<=0){System.out.println("That is not an option");storetemp = 1;}
+	elif(sword>=10){System.out.println("That is not an option");storetemp = 1;}
 	if(storetemp == 0){
 		if(gold >= (Math.pow(2,sword) * 10)/2){
 		if(swordown[1] == 1){System.out.println("You already own the " + swordname);}
