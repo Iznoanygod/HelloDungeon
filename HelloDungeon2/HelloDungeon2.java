@@ -294,9 +294,10 @@ switch(store){//flag store
 		if(swordown[8] == 1){System.out.println("You already own the " + swordname);}
 		if(swordown[9] == 1){System.out.println("You already own the " + swordname);}
 		else{
-			gold = (float) (gold - (Math.pow(2,sword) * 10)/2);
-			basestat[2] = (float) (basestat[2] + Math.pow(2, sword) * 10);
+			basestat[2] = (float) (gold - (Math.pow(2,sword) * 10)/2);
+			gold = (float) (basestat[2] + Math.pow(2, sword) * 10);
 			System.out.println("You bought a " + swordname);
+
 		}
 		}
 		else{System.out.println("You do not have enough gold");};
