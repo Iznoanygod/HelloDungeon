@@ -293,15 +293,15 @@ switch(store){//flag store
 		if(swordown[6] == 1){System.out.println("You already own the " + swordname);}
 		if(swordown[7] == 1){System.out.println("You already own the " + swordname);}
 		if(swordown[8] == 1){System.out.println("You already own the " + swordname);}
-	if(sword == 1){swordown[0] = 1";}
-	if(sword == 2){swordown[1] = 1";}
-	if(sword == 3){swordown[2] = 1";}
-	if(sword == 4){swordown[3] = 1";}
-	if(sword == 5){swordown[4] = 1";}
-	if(sword == 6){swordown[5] = 1";}
-	if(sword == 7){swordown[6] = 1";}
-	if(sword == 8){swordown[7] = 1";}
-	if(sword == 9){swordown[8] = 1";}
+	if(sword == 1){swordown[0] = 1;}
+	if(sword == 2){swordown[1] = 1;}
+	if(sword == 3){swordown[2] = 1;}
+	if(sword == 4){swordown[3] = 1;}
+	if(sword == 5){swordown[4] = 1;}
+	if(sword == 6){swordown[5] = 1;}
+	if(sword == 7){swordown[6] = 1;}
+	if(sword == 8){swordown[7] = 1;}
+	if(sword == 9){swordown[8] = 1;}
 			basestat[2] = (float) (gold - (Math.pow(2,sword) * 10)/2);
 			gold = (float) (basestat[2] + Math.pow(2, sword) * 10);
 			System.out.println("You bought a " + swordname);
