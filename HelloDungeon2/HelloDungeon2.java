@@ -293,6 +293,15 @@ switch(store){//flag store
 		if(swordown[7] == 1){System.out.println("You already own the " + swordname);}
 		if(swordown[8] == 1){System.out.println("You already own the " + swordname);}
 		if(swordown[9] == 1){System.out.println("You already own the " + swordname);}
+	if(sword == 1){swordown[1] = 1";}
+	if(sword == 2){swordown[2] = 1";}
+	if(sword == 3){swordname = "Iron Sword";}
+	if(sword == 4){swordname = "Gold Sword";}
+	if(sword == 5){swordname = "Diamond Sword";}
+	if(sword == 6){swordname = "Flaming Sword";}
+	if(sword == 7){swordname = "Sword of Oblivion";}
+	if(sword == 8){swordname = "Sword of the Master";}
+	if(sword == 9){swordname = "Sword of the Dragon Slayer";}
 		else{
 			basestat[2] = (float) (gold - (Math.pow(2,sword) * 10)/2);
 			gold = (float) (basestat[2] + Math.pow(2, sword) * 10);
