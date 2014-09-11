@@ -38,7 +38,7 @@ Scanner input = new Scanner(System.in);
 menuoption = input.nextInt();
 switch(menuoption){//flag3
 case 1:
-System.out.println("The Dragon Slayer has been long gone\nA new hero has been born");
+System.out.println("The Dragon Slayer has been float gone\nA new hero has been born");
 try {
 		  Thread.sleep(1000L);    // one second
 		}
@@ -137,61 +137,61 @@ try {
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 1 ]");
-difficulty = (long) input.nextLong();
+difficulty = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 2 ]");
-basestat[0] = (long) input.nextLong();
+basestat[0] = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 3 ]");
-basestat[1] = (long) input.nextLong();
+basestat[1] = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 4 ]");
-basestat[2] = (long) input.nextLong();
+basestat[2] = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 5 ]");
-gold = (long) input.nextLong();
+gold = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 6 ]");
-elixer = (long) input.nextLong();
+elixer = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 7 ]");
-level = (long) input.nextLong();
+level = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 8 ]");
-exp = (long) input.nextLong();
+exp = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 9 ]");
-fighter = (long) input.nextLong();
+fighter = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 10 ]");
-dungeontemp = (long) input.nextLong();
+dungeontemp = (float) input.nextFloat();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
