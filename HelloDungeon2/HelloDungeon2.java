@@ -129,100 +129,69 @@ try {
 		}//flag1
 break;		
 case 2:		
-long load;
-long random;
-long temp;
 try {Thread.sleep(1000L);}catch (Exception e) {}
 System.out.println("Enter User-Data Code");
-System.out.println("[ 1 ]-[ 2 ]-[ 3 ]-[ 4 ]-[ 5 ]-[ 6 ]-[ 7 ]-[ 8 ]-[ 9 ]-[ 10 ]-[ 11 ]");//[base1]-[base2]-[base3]-[gold]-[elixer]-[level]-[exp]-[fighter]
+System.out.println("[ 1 ]-[ 2 ]-[ 3 ]-[ 4 ]-[ 5 ]-[ 6 ]-[ 7 ]-[ 8 ]-[ 9 ]-[ 10 ]-[ 11 ]");
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 1 ]");
-random = (long) input.nextLong();
-random = (long) Math.sqrt(random - 9);
-random = random / 2;
+difficulty = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 2 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-basestat[0] = temp / random;
+basestat[0] = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 3 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-basestat[1] = temp / random;
+basestat[1] = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 4 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-basestat[2] = temp / random;
+basestat[2] = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 5 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-gold = temp / random;
+gold = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 6 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-elixer = temp / random;
+elixer = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 7 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-level = temp / random;
+level = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 8 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-exp = temp / random;
+exp = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 9 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-fighter = temp / random;
+fighter = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
 	catch (Exception e) {}
 System.out.println("Input [ 10 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-difficulty = temp / random;
-try {
-	  Thread.sleep(1000L);    // one second
-	}
-	catch (Exception e) {}
-System.out.println("Input [ 11 ]");
-load = (long) input.nextLong();
-temp = (long) Math.sqrt(load - random);
-dungeontemp = temp / random;
+dungeontemp = (long) input.nextLong();
 try {
 	  Thread.sleep(1000L);    // one second
 	}
@@ -264,6 +233,7 @@ float staff;
 float potion;
 float key;
 String swordname = null;
+String staffname = null;
 switch(store){//flag store
 	case 1:
 	try {Thread.sleep(1000L);}catch (Exception e) {}
@@ -280,8 +250,8 @@ switch(store){//flag store
 	if(sword == 7){swordname = "Sword of Oblivion";}
 	if(sword == 8){swordname = "Sword of the Master";}
 	if(sword == 9){swordname = "Sword of the Dragon Slayer";}
-	elif(sword<=0){System.out.println("That is not an option");storetemp = 1;}
-	elif(sword>=10){System.out.println("That is not an option");storetemp = 1;}
+	if(sword<=0){System.out.println("That is not an option");storetemp = 1;}
+	if(sword>=10){System.out.println("That is not an option");storetemp = 1;}
 	if(storetemp == 0){
 		if(gold >= (Math.pow(2,sword) * 10)/2){
 		if(swordown[0] == 1){System.out.println("You already own the " + swordname);}
@@ -307,7 +277,7 @@ switch(store){//flag store
 			System.out.println("You bought a " + swordname);
 
 		}
-		else{System.out.println("You do not have enough gold");};
+		else{System.out.println("You do not have enough gold for the " + swordname);};
 	}
 	//sword name
 	break;
