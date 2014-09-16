@@ -32,15 +32,3 @@ knight
 magic 10
 attack 10
 health 40
-
-Encrypt Equation
-result = ( (value + random ) ^ 2 ) * random
-
-Decrypt Equation
-value = ( ( result / random ) ^ ( 1 / 2 ) ) - random
-
-Random Encrypt Equation
-result = ( ( 2 * random ) ^ 2 ) + 9
-
-Random Decrypt Equation
-random = ( ( result - 9 ) ^ ( 1 / 2 ) ) / 2
