@@ -4,7 +4,7 @@ HelloDungeon2 is under development
 
 ETA
 ======
-A few months
+A while, lets say that
 
 TODO
 ==========
@@ -13,3 +13,4 @@ TODO
 3. Finish Dungeon
 4. Finish Save Data
 5. Finish My Profile
+6. Finish Graphics
