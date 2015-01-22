@@ -1,19 +1,9 @@
 HelloDungeon
 ============
+Text based RPG
 
-HelloDungeon game series
+HelloDungeon is completed
 
-It's a text-based RPG Dungeon-Adventure Game
+HelloDungeon2 in the making, with a load of new things, and will be constantly updated
 
-It has no graphics, just text based
-
-Do not ask for graphics, I have been asked that too much
-
-Releases
-=============
-
-HelloDungeon #1 is finished
-
-HelloDungeon #2 eta a few months
-
-HelloDungeon #3 eta beginning of summer
+It is text based
