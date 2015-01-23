@@ -958,7 +958,7 @@ if (fchoice == 5){
 	}
 }
 }while(gameloop == 0);
-System.out.println("Congradulations\nYou beat the game\nEnd");
+System.out.println("Congratulations\nYou beat the game\nEnd");
 System.out.println("<Press any key to continue>");
 Scanner end = new Scanner(System.in);
 String endgame = end.nextLine();
