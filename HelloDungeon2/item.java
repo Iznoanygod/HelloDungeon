@@ -2,6 +2,7 @@ package main;
 import java.io.*;
 public class item implements java.io.Serializable{
 	
+	private static final long serialVersionUID = 1L;
 	public String Name;
 	public String Description;
 	public float[] Stat;
