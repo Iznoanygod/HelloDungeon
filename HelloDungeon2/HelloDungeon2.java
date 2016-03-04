@@ -7,36 +7,35 @@
  |_|  |_|\___|_|_|\___/|_____/ \__,_|_| |_|\__, |\___|\___/|_| |_| ______
                                             __/ |                 |______|
                                            |___/                  
-
 */
 package main;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
 public class HelloDungeon2 {
 
 
-	@SuppressWarnings("null")
 	public static void main(String[] args){
-		//Initiation
-		float test[] = new float[12];
 		System.out.println("Loading...");
 		//item intiate
 		item Items[] = new item[1000];
-		 Items[0] = new item();    
-		 Items[1] = new item();
 	      try
 	      {
 	         FileInputStream fileIn = new FileInputStream("../config/items.config");
 	         ObjectInputStream in = new ObjectInputStream(fileIn);
+	         int number = 0;
+	         boolean initiate = false;
+	         while(initiate == false){
+	        	 Items[number] = (item) in.readObject();
+	        	 
+	        	 number++;
+	        	 if(number > 999){
+		    		  initiate = true;
+		    	  }
+	         }
 	         
-	         Items[0] =  (item) in.readObject();
-	         Items[1] =  (item) in.readObject();
-	         Items[2] =  (item) in.readObject();
-	         Items[13] =  (item) in.readObject();
 	         in.close();
 	         fileIn.close();
 	      }catch(IOException i)
@@ -51,10 +50,8 @@ public class HelloDungeon2 {
 	         return;
 	      }
 	     System.out.println(Items[0].Name);
-	     System.out.println(Items[1].Name);
-	     System.out.println(Items[2].Name);
-	     System.out.println(Items[13].Name);
-	     System.out.println(Items[0].Description);
+	     
+	     
 	     
 	}
 }
