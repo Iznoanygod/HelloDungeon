@@ -3,5 +3,4 @@ HelloDungeon
 Text based RPG
 
 HelloDungeon is completed
-
-It is text based
+HelloDungeon2 is in progress, and fast, and will feature actual graphics
