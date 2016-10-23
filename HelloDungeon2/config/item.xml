@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<itemlist>
+	<item id="0">
+		<Name>Basic Staff</Name>
+		<Description>A wooden stick you can barely call a staff</Description>
+		<Tier>0</Tier>
+		<Stats0>0</Stats0>
+		<Stats1>10</Stats1>
+		<Stats2>5</Stats2>
+		<Stats3>5</Stats3>
+		<Stats4>10</Stats4>
+		<Stats5>0</Stats5>
+		<Slot>0</Slot>
+	</item>
+	<item id="1">
+		<Name>Energy Staff</Name>
+		<Description>Your very first staff you got from the local mage</Description>
+		<Tier>1</Tier>
+		<Stats0>0</Stats0>
+		<Stats1>15</Stats1>
+		<Stats2>5</Stats2>
+		<Stats3>5</Stats3>
+		<Stats4>15</Stats4>
+		<Stats5>0</Stats5>
+		<Slot>0</Slot>
+	</item>
+	<item id="2">
+		<Name>Fire Staff</Name>
+		<Description>This staff was made with a fire gem, hand-crafted by the local mage</Description>
+		<Tier>2</Tier>
+		<Stats0>0</Stats0>
+		<Stats1>20</Stats1>
+		<Stats2>5</Stats2>
+		<Stats3>5</Stats3>
+		<Stats4>30</Stats4>
+		<Stats5>0</Stats5>
+		<Slot>0</Slot>
+	</item>
+</itemlist>

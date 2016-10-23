@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<classlist>
+	<class id="0">
+		<Name>Mage</Name>
+		<Description>Basic mage, practices magic at the local shop</Description>
+		<tier>0</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<evolution0>1</evolution0>
+		<evolution1>2</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="1">
+		<Name>Warlock</Name>
+		<Description>Amateur when it comes to summoning spirits</Description>
+		<tier>1</tier>
+		<basestat0>70</basestat0>
+		<basestat1>60</basestat1>
+		<basestat2>20</basestat2>
+		<basestat3>45</basestat3>
+		<basestat4>70</basestat4>
+		<basestat5>40</basestat5>
+		<curve>3</curve>
+		<evolution0>3</evolution0>
+		<evolution1>4</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="2">
+		<Name>Sorceror</Name>
+		<Description>One-up to the mage, knows higher level spells</Description>
+		<tier>1</tier>
+		<basestat0>60</basestat0>
+		<basestat1>70</basestat1>
+		<basestat2>15</basestat2>
+		<basestat3>40</basestat3>
+		<basestat4>80</basestat4>
+		<basestat5>40</basestat5>
+		<curve>2</curve>
+		<evolution0>5</evolution0>
+		<evolution1>6</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="3">
+		<Name>Acolyte</Name>
+		<Description>Helps with religious ceremonies, communicates with spirits</Description>
+		<tier>2</tier>
+		<basestat0>75</basestat0>
+		<basestat1>80</basestat1>
+		<basestat2>30</basestat2>
+		<basestat3>50</basestat3>
+		<basestat4>85</basestat4>
+		<basestat5>45</basestat5>
+		<curve>2</curve>
+		<evolution0>7</evolution0>
+		<evolution1>8</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="4">
+		<Name>Theurge</Name>
+		<Description>Knows divine spells, and can cast higher level spells</Description>
+		<tier>2</tier>
+		<basestat0>80</basestat0>
+		<basestat1>85</basestat1>
+		<basestat2>35</basestat2>
+		<basestat3>50</basestat3>
+		<basestat4>90</basestat4>
+		<basestat5>50</basestat5>
+		<curve>3</curve>
+		<evolution0>9</evolution0>
+		<evolution1>10</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="5">
+		<Name>Arcanist</Name>
+		<Description>Very strong magic caster, has almost no limits</Description>
+		<tier>2</tier>
+		<basestat0>80</basestat0>
+		<basestat1>85</basestat1>
+		<basestat2>25</basestat2>
+		<basestat3>65</basestat3>
+		<basestat4>100</basestat4>
+		<basestat5>50</basestat5>
+		<curve>2</curve>
+		<evolution0>11</evolution0>
+		<evolution1>12</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+	<class id="6">
+		<Name>Witch</Name>
+		<Description>The witch used to train to be a white mage, but ended up resorting to evil</Description>
+		<tier>2</tier>
+		<basestat0>70</basestat0>
+		<basestat1>90</basestat1>
+		<basestat2>20</basestat2>
+		<basestat3>50</basestat3>
+		<basestat4>110</basestat4>
+		<basestat5>50</basestat5>
+		<curve>1</curve>
+		<evolution0>13</evolution0>
+		<evolution1>14</evolution1>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<move4>0</move4>
+		<move5>0</move5>
+		<move6>0</move6>
+		<move7>0</move7>
+	</class>
+</classlist>

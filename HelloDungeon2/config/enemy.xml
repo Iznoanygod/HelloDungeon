@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<itemlist>
+	<enemy id="0">
+		<Name>Target Dummy</Name>
+		<Description>The target dummy from the tutorial</Description>
+		<basestat0>30</basestat0>
+		<basestat1>0</basestat1>
+		<basestat2>0</basestat2>
+		<basestat3>0</basestat3>
+		<basestat4>0</basestat4>
+		<basestat5>10</basestat5>
+	</enemy>
+</itemlist>
