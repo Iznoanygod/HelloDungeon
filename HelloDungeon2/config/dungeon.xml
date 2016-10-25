@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<itemlist>
+	<dungeon id="0">
+		<Name>Slime Cave</Name>
+		<background>cave</background>
+		<difficulty>1</difficulty>
+		<minlevel>1</minlevel>
+		<floors>1</floors>
+		<texture0>cavewall</texture0>
+		<texture1>stone</texture1>
+		<texture2>dirt</texture2>
+		<texture3>darkstone</texture3>
+		<texture4>lightstone</texture4>
+		<texture5>grass</texture5>
+		<texture6>lava</texture6>
+		<texture7>water</texture7>
+		<texture8>bedrock</texture8>
+		<texture9>portal</texture9>
+		<floor0>003010000380|003113118081|052001008343|552013108008|054140100098|004000400000|000001100000</floor0>
+	</dungeon>
+</itemlist>
