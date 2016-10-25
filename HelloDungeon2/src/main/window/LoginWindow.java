@@ -24,8 +24,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Window.Type;
 
 public class LoginWindow {
-
-	private JFrame frmLogin;
+	public static JFrame frmLogin = new JFrame();
 	private JTextField usernameField;
 	private JPasswordField passwordField;
 	
@@ -36,6 +35,7 @@ public class LoginWindow {
 	 */
 	public static void loginWindow() {
 		EventQueue.invokeLater(new Runnable() {
+			@SuppressWarnings("static-access")
 			public void run() {
 				try {
 					LoginWindow window = new LoginWindow();
