@@ -1,7 +1,7 @@
 
 Note
 ========
-HelloDungeon2 is open source
+HelloDungeon2 is an open source rpg game
 
 ETA
 ======
