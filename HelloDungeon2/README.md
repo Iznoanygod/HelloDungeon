@@ -1,11 +1,11 @@
 
 Note
 ========
-HelloDungeon2 is under development
+HelloDungeon2 is open source
 
 ETA
 ======
-A while, lets say that
+A few months. Unofficial approximation May 2017
 
 TODO
 =========
