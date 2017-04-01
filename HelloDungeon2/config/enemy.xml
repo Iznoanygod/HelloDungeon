@@ -1,13 +1,59 @@
 <?xml version="1.0"?>
-<itemlist>
-	<enemy id="0">
+<enemylist>
+	<Enemy id="0">
 		<Name>Target Dummy</Name>
 		<Description>The target dummy from the tutorial</Description>
+		<level>1</level>
 		<basestat0>30</basestat0>
 		<basestat1>0</basestat1>
 		<basestat2>0</basestat2>
 		<basestat3>0</basestat3>
 		<basestat4>0</basestat4>
 		<basestat5>10</basestat5>
-	</enemy>
-</itemlist>
+		<sprite>tdummy</sprite>
+		<multiplier>50</multiplier>
+		<drop0>0</drop0>
+		<drop1>0</drop1>
+		<drop2>0</drop2>
+		<drop3>0</drop3>
+		<drop4>0</drop4>
+		<chance0>0</chance0>
+		<chance1>0</chance1>
+		<chance2>0</chance2>
+		<chance3>0</chance3>
+		<chance4>0</chance4>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<script>none</script>
+	</Enemy>
+	<Enemy id="1">
+		<Name>Green Slime</Name>
+		<Description>Squishy and green. They're very weak</Description>
+		<level>1</level>
+		<basestat0>30</basestat0>
+		<basestat1>30</basestat1>
+		<basestat2>20</basestat2>
+		<basestat3>20</basestat3>
+		<basestat4>20</basestat4>
+		<basestat5>10</basestat5>
+		<sprite>gslime</sprite>
+		<multiplier>50</multiplier>
+		<drop0>0</drop0>
+		<drop1>0</drop1>
+		<drop2>0</drop2>
+		<drop3>0</drop3>
+		<drop4>0</drop4>
+		<chance0>0</chance0>
+		<chance1>0</chance1>
+		<chance2>0</chance2>
+		<chance3>0</chance3>
+		<chance4>0</chance4>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+		<script>none</script>
+	</Enemy>
+</enemylist>

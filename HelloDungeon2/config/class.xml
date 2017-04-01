@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <classlist>
-	<class id="0">
-		<Name>Mage</Name>
-		<Description>Basic mage, practices magic at the local shop</Description>
-		<tier>0</tier>
+	<class id="0"><!-- Apprentice -->
+		<Name>Apprentice</Name>
+		<Description>Apprentice to the mage, he deals with low level threats and follows his mentor, hoping to become a mage himself</Description>
+		<Sprite>apprentice</Sprite>
+		<Type>magic</Type>
+		<starter>true</starter>
+		<tier>1</tier>
 		<basestat0>40</basestat0>
 		<basestat1>50</basestat1>
 		<basestat2>10</basestat2>
@@ -11,43 +14,19 @@
 		<basestat4>60</basestat4>
 		<basestat5>30</basestat5>
 		<curve>1</curve>
-		<evolution0>1</evolution0>
-		<evolution1>2</evolution1>
+		<unlock>1</unlock>
 		<move0>0</move0>
 		<move1>0</move1>
 		<move2>0</move2>
 		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
 	</class>
-	<class id="1">
-		<Name>Warlock</Name>
-		<Description>Amateur when it comes to summoning spirits</Description>
-		<tier>1</tier>
-		<basestat0>70</basestat0>
-		<basestat1>60</basestat1>
-		<basestat2>20</basestat2>
-		<basestat3>45</basestat3>
-		<basestat4>70</basestat4>
-		<basestat5>40</basestat5>
-		<curve>3</curve>
-		<evolution0>3</evolution0>
-		<evolution1>4</evolution1>
-		<move0>0</move0>
-		<move1>0</move1>
-		<move2>0</move2>
-		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
-	</class>
-	<class id="2">
-		<Name>Sorceror</Name>
-		<Description>One-up to the mage, knows higher level spells</Description>
-		<tier>1</tier>
+	<class id="1"><!-- Mage -->
+		<Name>Mage</Name>
+		<Description>He's the local mage of his town, he deals with larger scale threats that occur around the area</Description>
+		<Sprite>mage</Sprite>
+		<Type>magic</Type>
+		<starter>false</starter>
+		<tier>2</tier>
 		<basestat0>60</basestat0>
 		<basestat1>70</basestat1>
 		<basestat2>15</basestat2>
@@ -55,65 +34,19 @@
 		<basestat4>80</basestat4>
 		<basestat5>40</basestat5>
 		<curve>2</curve>
-		<evolution0>5</evolution0>
-		<evolution1>6</evolution1>
+		<unlock>2</unlock>
 		<move0>0</move0>
 		<move1>0</move1>
 		<move2>0</move2>
 		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
 	</class>
-	<class id="3">
-		<Name>Acolyte</Name>
-		<Description>Helps with religious ceremonies, communicates with spirits</Description>
-		<tier>2</tier>
-		<basestat0>75</basestat0>
-		<basestat1>80</basestat1>
-		<basestat2>30</basestat2>
-		<basestat3>50</basestat3>
-		<basestat4>85</basestat4>
-		<basestat5>45</basestat5>
-		<curve>2</curve>
-		<evolution0>7</evolution0>
-		<evolution1>8</evolution1>
-		<move0>0</move0>
-		<move1>0</move1>
-		<move2>0</move2>
-		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
-	</class>
-	<class id="4">
-		<Name>Theurge</Name>
-		<Description>Knows divine spells, and can cast higher level spells</Description>
-		<tier>2</tier>
-		<basestat0>80</basestat0>
-		<basestat1>85</basestat1>
-		<basestat2>35</basestat2>
-		<basestat3>50</basestat3>
-		<basestat4>90</basestat4>
-		<basestat5>50</basestat5>
-		<curve>3</curve>
-		<evolution0>9</evolution0>
-		<evolution1>10</evolution1>
-		<move0>0</move0>
-		<move1>0</move1>
-		<move2>0</move2>
-		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
-	</class>
-	<class id="5">
-		<Name>Arcanist</Name>
-		<Description>Very strong magic caster, has almost no limits</Description>
-		<tier>2</tier>
+	<class id="2"><!-- Battle Mage -->
+		<Name>Battle Mage</Name>
+		<Description>Renowned for his skills in all forms of magic, he was recruited to fight for the King</Description>
+		<Sprite>battlemage</Sprite>
+		<Type>magic</Type>
+		<starter>false</starter>
+		<tier>3</tier>
 		<basestat0>80</basestat0>
 		<basestat1>85</basestat1>
 		<basestat2>25</basestat2>
@@ -121,37 +54,250 @@
 		<basestat4>100</basestat4>
 		<basestat5>50</basestat5>
 		<curve>2</curve>
-		<evolution0>11</evolution0>
-		<evolution1>12</evolution1>
+		<unlock>2</unlock>
 		<move0>0</move0>
 		<move1>0</move1>
 		<move2>0</move2>
 		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
 	</class>
-	<class id="6">
-		<Name>Witch</Name>
-		<Description>The witch used to train to be a white mage, but ended up resorting to evil</Description>
-		<tier>2</tier>
-		<basestat0>70</basestat0>
-		<basestat1>90</basestat1>
-		<basestat2>20</basestat2>
-		<basestat3>50</basestat3>
-		<basestat4>110</basestat4>
-		<basestat5>50</basestat5>
-		<curve>1</curve>
-		<evolution0>13</evolution0>
-		<evolution1>14</evolution1>
+	<class id="3"><!-- Pirate -->
+		<Name>Pirate</Name>
+		<Description>Your ordinary pirate, loots cargo ships for money and food. He's the bottom of the pirate food chain</Description>
+		<Sprite>pirate</Sprite>
+		<Type>rogue</Type>
+		<starter>true</starter>
+		<tier>1</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>2</curve>
+		<unlock>4</unlock>
 		<move0>0</move0>
 		<move1>0</move1>
 		<move2>0</move2>
 		<move3>0</move3>
-		<move4>0</move4>
-		<move5>0</move5>
-		<move6>0</move6>
-		<move7>0</move7>
+	</class>
+	<class id="4"><!-- Buccaneer -->
+		<Name>Buccaneer</Name>
+		<Description>A part of Blackbeard's crew, he is in charge with loading the cannons and firing at enemy ships</Description>
+		<Sprite>buccaneer</Sprite>
+		<Type>rogue</Type>
+		<starter>false</starter>
+		<tier>2</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>5</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="5"><!-- Blackbeard -->
+		<Name>Blackbeard</Name>
+		<Description>He's feared by many sailors. He's as ruthless as they come, bombarding any other ship he sees with cannonballs</Description>
+		<Sprite>blackbeard</Sprite>
+		<Type>rogue</Type>
+		<starter>false</starter>
+		<tier>3</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>2</curve>
+		<unlock>5</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="6"><!-- Pembrey -->
+		<Name>Pembrey</Name>
+		<Description>His soul wandered around the forest, possessing the old and rotting tree stumps. He chases wandered out of his forest</Description>
+		<Sprite>pembrey</Sprite>
+		<Type>unknown</Type>
+		<starter>true</starter>
+		<tier>1</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>7</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="7"><!-- Kodama -->
+		<Name>Kodama</Name>
+		<Description>He used to live peacefully with the people of the village, until they started cutting down the sacred trees of the forest. His soul now resides in the stumps of the trees</Description>
+		<Sprite>kodama</Sprite>
+		<Type>unknown</Type>
+		<starter>false</starter>
+		<tier>2</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>8</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="8"><!-- Aokigahara -->
+		<Name>Aokigahara</Name>
+		<Description>He's known as the Tree of Death, killing anyone who enters his forest. The fire of his soul lives within the roots</Description>
+		<Sprite>aokigahara</Sprite>
+		<Type>unknown</Type>
+		<starter>false</starter>
+		<tier>3</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>8</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="9">
+		<Name>Brawler</Name>
+		<Description>Very boisterous without reason, he defends his town from outside threats. He wields a rusty pick but no shield</Description>
+		<Sprite>brawler</Sprite>
+		<Type>warrior</Type>
+		<starter>true</starter>
+		<tier>1</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>10</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="10">
+		<Name>Parmularius</Name>
+		<Description>He used to be a brawler, until he was recruited to fight for the King. He ditched his old pick in favor of an axe</Description>
+		<Sprite>parmularius</Sprite>
+		<Type>warrior</Type>
+		<starter>false</starter>
+		<tier>2</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>11</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="11">
+		<Name>Bannockburn</Name>
+		<Description>The most renowned fighter of his region, he has never lost a fight. He's determined to become the best fighter in the lands</Description>
+		<Sprite>bannockburn</Sprite>
+		<Type>warrior</Type>
+		<starter>false</starter>
+		<tier>3</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>11</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2>
+		<move3>0</move3>
+	</class>
+	<class id="12">
+		<Name>Calotes</Name>
+		<Description>An oversized lizard, he's really only useful for the hardened scales that cover his body</Description>
+		<Sprite>calotes</Sprite>
+		<Type>beast</Type>
+		<starter>true</starter>
+		<tier>1</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>13</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2> 
+		<move3>0</move3>
+	</class>
+	<class id="13">
+		<Name>Acanthosaura</Name>
+		<Description>The most renowned fighter of his region, he has never lost a fight. He's determined to become the best fighter in the lands</Description>
+		<Sprite>acanthosaura</Sprite>
+		<Type>beast</Type>
+		<starter>false</starter>
+		<tier>2</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>14</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2> 
+		<move3>0</move3>
+	</class>
+	<class id="14">
+		<Name>Amphisbainai</Name>
+		<Description>The most renowned fighter of his region, he has never lost a fight. He's determined to become the best fighter in the lands</Description>
+		<Sprite>amphisbainai</Sprite>
+		<Type>beast</Type>
+		<starter>false</starter>
+		<tier>2</tier>
+		<basestat0>40</basestat0>
+		<basestat1>50</basestat1>
+		<basestat2>10</basestat2>
+		<basestat3>30</basestat3>
+		<basestat4>60</basestat4>
+		<basestat5>30</basestat5>
+		<curve>1</curve>
+		<unlock>14</unlock>
+		<move0>0</move0>
+		<move1>0</move1>
+		<move2>0</move2> 
+		<move3>0</move3>
 	</class>
 </classlist>
