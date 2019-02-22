@@ -142,28 +142,28 @@ do{
     	difficulty = input.nextInt();
     	switch (difficulty){
     		case 1:
-    			System.out.println("You chose easy as you difficulty");
+    			System.out.println("You chose easy as your difficulty");
     			multdiff = .75;
     			dchoice = 1;
     			break;
     		case 2:
-    			System.out.println("You chose normal as you difficulty");
+    			System.out.println("You chose normal as your difficulty");
     			multdiff = 1;
     			dchoice = 1;
     			break;
     		case 3:
-    			System.out.println("You chose hard as you difficulty");
+    			System.out.println("You chose hard as your difficulty");
     			multdiff = 1.5;
     			dchoice = 1;
     			break;
     		case 4:
-    			System.out.println("You chose hero as you difficulty");
+    			System.out.println("You chose hero as your difficulty");
     			multdiff = 2;
     			dchoice = 1;
     			break;
     		case 5:
     			if (beatgame == 1){
-    			System.out.println("You chose Dragon Slayer as you difficulty");
+    			System.out.println("You chose Dragon Slayer as your difficulty");
     			multdiff = 3;
     			dchoice = 1;
     			}
