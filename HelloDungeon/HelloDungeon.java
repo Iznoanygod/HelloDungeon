@@ -935,28 +935,7 @@ do{//2 start
 }while (lchoice == 0);
 System.out.println("You have defeated the dragon");
 System.out.println("You Win!!");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-System.out.println(" ");
-if (fchoice == 5){
-	if (difficulty == 5){
-		System.out.println("And so, the dragon slayer returns back home and waits for his next journey");
-		System.out.println("He waits in his house, sharpening his sword");
-		System.out.println("HelloDungeon2 coming soon");
-		gameloop = 1;
-	}
-}
+gameloop = 1;
 }while(gameloop == 0);
 System.out.println("Congratulations\nYou beat the game\nEnd");
 }
